@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "GPT to Markdown",
+    "version": "1.0",
+    "permissions": ["activeTab", "clipboardWrite"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "aaa.png",
+            "48": "aaa.png",
+            "128": "aaa.png"
+        }
+    }
+}
