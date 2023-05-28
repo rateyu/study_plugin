@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "PDF2TXT",
+    "version": "1.0",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/aaa.png",
+        "48": "images/aaa.png",
+        "128": "images/aaa.png"
+      }
+    },
+    "permissions": ["storage"],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
