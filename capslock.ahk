@@ -389,17 +389,25 @@ return                                                               ;|
 CapsLock & \::                                                       ;|
 Send, ^e                                                             ;|
 Send, u                                                              ;|
-return                                                               ;|
+return       
+
+; 增加idea快捷键  !alt ^ctl +shit 
+;1 2  前进和后退
+;3 linux 插入 
+; 4 5 ctrl f12   ctrl alt f12
+; 6  shift f12
+;7 8  alt f7 f8   
+; 9 10 alt shift f9 f10                                               ;|
 ;-----------------------------------o                                ;|
-CapsLock & 1:: Send,!{F7}                                            ;|
-CapsLock & 2:: Send,!{F8}                                             ;|
-CapsLock & 3:: Send,+{Insert}                                            ;|
-CapsLock & 4:: Send,{F11}                                            ;|
-CapsLock & 5:: Send,+{F5}                                            ;|
+CapsLock & 1:: Send,^!{Left}                                         ;|ok
+CapsLock & 2:: Send,^!{Right}                                        ;|ok
+CapsLock & 3:: Send,+{Insert}                                        ;|ok
+CapsLock & 4:: Send,^{F12}                                           ;|ok
+CapsLock & 5:: Send,^!{F12}                                          ;|ok
 ;-----------------------------------o                                ;|
-CapsLock & 6:: Send,+6                                               ;|
-CapsLock & 7:: Send,!{F7}                                               ;|
-CapsLock & 8:: Send,!{F8}                                             ;|
-CapsLock & 9:: Send,+9                                               ;|
-CapsLock & 0:: Send,+{F10}                                               ;|
+CapsLock & 6:: Send,+{F12}                                               ;|??
+CapsLock & 7:: Send,!{F7}                                            ;|ok
+CapsLock & 8:: Send,!{F8}                                            ;|ok
+CapsLock & 9:: Send,!+{F9}                                           ;|ok
+CapsLock & 0:: Send,!+{F10}                                          ;|ok
 ;---------------------------------------------------------------------o
